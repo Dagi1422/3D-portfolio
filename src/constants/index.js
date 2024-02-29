@@ -23,6 +23,24 @@ import {
     jobit,
     tripguide,
     threejs,
+    BR3a,
+    canva,
+    mysql,
+    php,
+    strikingly,
+    BR4,
+    herma,
+    bzbn,
+    br,
+    enlarge,
+    brhome,
+    brabout,
+    brwork,
+    brcontact,
+    abrnlhome,
+    abrnlhome1,
+    abrnlshop,
+    abrnlcontact,
   } from "../assets";
   
   export const navLinks = [
@@ -31,8 +49,8 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "works",
+      title: "Works",
     },
     {
       id: "contact",
@@ -42,21 +60,22 @@ import {
   
   const services = [
     {
+      title: "UI Designer",
+      icon: backend,
+    },
+    {
       title: "Web Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Graphics Designer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Mobile app Developer",
       icon: backend,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    
   ];
   
   const technologies = [
@@ -73,13 +92,39 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "figma",
+      icon: figma,
+    },
+    {
+      name: "canva",
+      icon: canva,
+    },
+    {
+      name: "MySQL",
+      icon: mysql,
+    },
+    {
+      name: "php",
+      icon: php,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
+      name: "strikingly",
+      icon: strikingly,
+    },
+   /*
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
+    
     {
       name: "Redux Toolkit",
       icon: redux,
@@ -105,13 +150,9 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
-    },
+    },*/
   ];
   
   const experiences = [
@@ -196,70 +237,248 @@ import {
     },
   ];
   
-  const projects = [
+  const logoProjects = [
     {
-      name: "Car Rent",
+      name: "Beauty zone by Nina",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Here are different style of logos for a makeup shop.",
       tags: [
         {
-          name: "react",
+          name: "canva",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "logo",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "BZBN",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: bzbn,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Beza Reflection",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Different style of logos for an interior design shop/website.",
       tags: [
         {
-          name: "react",
+          name: "canva",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "logo",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "adobeillustrator",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: br,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Herma Fashion",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Different style of logos for a fashion designer shop.",
       tags: [
         {
-          name: "nextjs",
+          name: "canva",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "fashion",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "design",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: herma,
       source_code_link: "https://github.com/",
     },
   ];
+
+  const webProjects = [
+    {
+      name: "Beza Reflection",
+      description:
+        "Beza reflection is an interior design website that is used to book an interior designer by showing their work",
+      tags: [
+        {
+          name: "strikingly",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "home_page",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: brhome,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Beza Reflection",
+      description:
+        "This here tells a little about who they are and what they do.",
+      tags: [
+        {
+          name: "strikingly",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "about_us",
+          color: "green-text-gradient",
+        },
+        {
+          name: "BR",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: brabout,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Beza Reflection",
+      description:
+        "This here shows their works.",
+      tags: [
+        {
+          name: "strikingly",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "works",
+          color: "green-text-gradient",
+        },
+        {
+          name: "BR",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: brwork,
+      source_code_link: "https://github.com/",
+    },
+    /*{
+      name: "Beza Reflection",
+      description:
+        "This here shows how to contact them.",
+      tags: [
+        {
+          name: "strikingly",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "contact_page",
+          color: "green-text-gradient",
+        },
+        {
+          name: "BR",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: brcontact,
+      source_code_link: "https://github.com/",
+    },*/
+    {
+      name: "ABRNL Baltna",
+      description:
+        "This website helps customers buy “baltna” products online.",
+      tags: [
+        {
+          name: "strikingly",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "home_page",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ABRNL",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: abrnlhome,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "ABRNL Baltna",
+      description:
+        "This website helps customers buy “baltna” products and the owners get orders online.",
+      tags: [
+        {
+          name: "strikingly",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "home_page",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ABRNL",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: abrnlhome1,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "ABRNL Baltna",
+      description:
+        "This is the shopping page where customers select a product they are going to buy.",
+      tags: [
+        {
+          name: "strikingly",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "shopping_page",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ABRNL",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: abrnlshop,
+      source_code_link: "https://github.com/",
+    },
+    /*{
+      name: "ABRNL Baltna",
+      description:
+        "This here shows how to contact them.",
+      tags: [
+        {
+          name: "strikingly",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "contact_page",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ABRNL",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: abrnlcontact,
+      source_code_link: "https://github.com/",
+    },*/
+  ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, logoProjects, webProjects };
+
+  
+  

@@ -20,6 +20,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import canva from "./tech/canva.png";
+import mysql from "./tech/mysql.png";
+import php from "./tech/php.png";
+import strikingly from "./tech/strikingly.jpg";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -29,6 +34,23 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import BR3a from "./BR3a.png";
+import BR4 from "./BR4.jpg";
+import herma from "./herma.png";
+import bzbn from "./bzbn.png";
+import br from "./br.png";
+import enlarge from "./enlarge.png";
+
+import brhome from "./BRweb/brhome.jpeg";
+import brabout from "./BRweb/brabout.jpeg";
+import brwork from "./BRweb/brwork.jpeg";
+import brcontact from "./BRweb/brcontact.jpeg";
+
+import abrnlhome from "./abrnl/abrnlhome.jpeg";
+import abrnlhome1 from "./abrnl/abrnlhome1.jpeg";
+import abrnlshop from "./abrnl/abrnlshop.jpeg";
+import abrnlcontact from "./abrnl/abrnlcontact.jpeg";
+
 
 export {
   logo,
@@ -52,6 +74,12 @@ export {
   tailwind,
   typescript,
   threejs,
+
+  canva,
+  mysql,
+  php,
+  strikingly,
+
   meta,
   shopify,
   starbucks,
@@ -59,4 +87,20 @@ export {
   carrent,
   jobit,
   tripguide,
+  BR3a,
+  BR4,
+  herma,
+  bzbn,
+  br,
+  enlarge,
+
+  brhome,
+  brabout,
+  brwork,
+  brcontact,
+
+  abrnlhome,
+  abrnlhome1,
+  abrnlshop,
+  abrnlcontact,
 };
