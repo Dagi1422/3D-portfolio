@@ -9,20 +9,21 @@ const Computers = () => {
  const computer = useGLTF('./desktop_pc/scene.gltf')
 
   return (
-    <mesh>
+    /*<mesh>
       <hemisphereLight intensity={0.15} 
         groundColor="black"/>
       <pointLight intensity={1}/>
       <primitive 
         object={computer.scene}
       />
-    </mesh>
+    </mesh>*/
     
+    <img src={'/desktop_pc/logo.png'}alt="" />
     
   )
 }
 
-const ComputersCanvas = () => {
+/*const ComputersCanvas = () => {
   return (
     <Canvas
       frameLoop = "demand"
@@ -43,5 +44,5 @@ const ComputersCanvas = () => {
 
     </Canvas>
   )
-}
+}*/
 export default Computers
