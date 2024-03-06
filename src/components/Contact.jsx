@@ -34,13 +34,13 @@ const Contact = () => {
       .send(
         //import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         //import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        'service_b4s7zj1',
+        'service_af0xlzq',
         'template_2jujdnm',
         {
           from_name: form.name,
-          to_name: "Dagmawit Dejene",
+          to_name: 'Dagmawit Dejene',
           from_email: form.email,
-          to_email: "dagmawit1422@gmail.com",
+          to_email: 'dagmawit1422@gmail.com',
           message: form.message,
         },
         //import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
